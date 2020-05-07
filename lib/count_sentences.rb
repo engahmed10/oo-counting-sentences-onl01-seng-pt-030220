@@ -18,8 +18,7 @@ class String
 
   def count_sentences
 
-        self.split(/[.?!]+/).grep(/\S/).count  #grep will remove any space at end of sentences to count correctly 
-
+       self.split(/[.?!]/).grep(/\S/).count  #grep will remove any space at end of sentences to count correctly
   end
 
 end
